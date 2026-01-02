@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            background-color: black;
+
+            /* 1st Trick */
+            /* position: relative; */
+
+            /* 2nd Flexbox */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* 3rd gird */
+            /* display: grid;
+            place-items: center; */
+
+            /* 4th grid */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+            /* 5th Flex and Margin */
+            /* margin: auto; */
+
+        }
+
+        .child{
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+
+            /* 1st */
+            /* position: absolute;
+            top:  50%;
+            left: 50%;
+            transform: translate(-50%, -50%); */
+
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 20px;
+
+            /* Text center */
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+    </style>
+</head>
+<body>
+    <div class="child">Center Text</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 10vh;
+            background-color: black;
+            color: aquamarine;
+
+            & a{
+                color: beige;
+                font-size: 20px;
+            }
+
+            & .container{
+                width: 90vw;
+                margin: auto;
+            }
+
+            .logo-brand{
+                width: 30%;
+                height: inherit;
+                /* background-color: rgb(226, 18, 122); */
+                line-height: 10vh;
+                text-align: center;
+                float: left;
+            }
+
+            .navbar-nav{
+                width: 70%;
+                height: inherit;
+                /* background-color: chartreuse; */
+                line-height: 10vh;
+                text-align: right;
+                float: right;
+                
+            }
+
+            & ul li{
+                list-style: none;
+                display: inline-block;
+                /* border:inset 5px solid red; */
+                padding: 0 25px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="logo-brand">
+            <a href="#">THAPA TECHNICAL</a>
+        </div>
+        <nav class="navbar-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+</body>
+</html>

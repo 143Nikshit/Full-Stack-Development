@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carausal</title>
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html{
+            font-size: 62.5%;
+        }
+
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .container-img{
+            width: 60vw;
+            height: 50rem;
+            border-radius: 1rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background-image: url("https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2022/01/good-nature-homepage-hero_2-scaled.jpg");
+            background-size: cover;
+            animation: gallary 20s linear infinite;
+        }
+
+        @keyframes gallary{
+            0%{
+                background-image: url("https://media.istockphoto.com/id/598058914/photo/the-sun-shining-through-a-majestic-oak-tree.jpg?s=612x612&w=0&k=20&c=4DTzYebYeA2gd5GbLVau1fQZjBgLa94RjonAM1Ke1Co=");
+            }
+
+            20%{
+                background-image: url("https://static.vecteezy.com/system/resources/thumbnails/049/855/805/small_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-free-photo.jpg");
+            }
+
+            40%{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-v7rLltXkPagGEHA6BC7LjHGrwKLanvMyg&s");
+            }
+
+            60%{
+                background-image: url("https://t4.ftcdn.net/jpg/02/55/17/43/360_F_255174366_ojDuATz84e5h7lIlxh2moUJa9Kpd5wKk.jpg");
+            }
+
+            80%{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Euhwt3IuUMw-Dq3btDbPz8YrOqO59OE5IQ&s");
+            }
+
+            100%{
+                background-image: url("https://i.ytimg.com/vi/U-MPyvz9RhE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA7A6IXQQG9LesJWFoY-pjSg9Gnew");
+            }
+        }
+    </Style>
+</head>
+<body>
+    <div class="container-img"></div>
+</body>
+</html>
